@@ -56,11 +56,7 @@ button {
     animation: shake 1.8s linear infinite;
 }
 
-button.blue.toggle,
-button.green.toggle,
-button.red.toggle {
-    animation-play-state: paused;
-}
+
 
 button.blue {
     left: 50%;
@@ -135,13 +131,21 @@ button .greenSpanHide.change {
     left: -10px;
 } */
 
+h1.toggle,
 .ball.toggle,
-.shadow.toggle {
+.shadow.toggle,
+button.blue.toggle,
+button.green.toggle,
+button.red.toggle {
     animation-play-state: paused;
 }
 
+h1.slowMo,
 .ball.slowMo,
-.shadow.slowMo {
+.shadow.slowMo,
+button.blue.slowMo,
+button.green.slowMo,
+button.red.slowMo {
     animation-duration: 4s;
 }
 

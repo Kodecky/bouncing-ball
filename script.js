@@ -18,6 +18,10 @@ blueBtn.addEventListener('click', function () {
 greenBtn.addEventListener('click', function () {
     ball.classList.toggle('slowMo');
     shadow.classList.toggle('slowMo');
+    this.classList.toggle('slowMo');
+    blueBtn.classList.toggle('slowMo');
+    redBtn.classList.toggle('slowMo');
+    document.querySelector('h1').classList.toggle('slowMo');
     document.querySelector('.greenSpan').classList.toggle('change');
     document.querySelector('.greenSpanHide').classList.toggle('change');
 })
