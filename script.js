@@ -7,6 +7,10 @@ const shadow = document.querySelector('.shadow');
 blueBtn.addEventListener('click', function () {
     ball.classList.toggle('toggle');
     shadow.classList.toggle('toggle');
+    this.classList.toggle('toggle');
+    greenBtn.classList.toggle('toggle');
+    redBtn.classList.toggle('toggle');
+    document.querySelector('h1').classList.toggle('toggle');
     document.querySelector('.blueSpan').classList.toggle('change');
     document.querySelector('.blueSpanHide').classList.toggle('change');
 })

@@ -39,6 +39,10 @@ h1 {
     animation: shake 1.8s linear infinite;
 }
 
+h1.toggle {
+    animation-play-state: paused;
+}
+
 button {
     position: absolute;
     bottom: 50px;
@@ -50,6 +54,12 @@ button {
     overflow: hidden;
     cursor: pointer;
     animation: shake 1.8s linear infinite;
+}
+
+button.blue.toggle,
+button.green.toggle,
+button.red.toggle {
+    animation-play-state: paused;
 }
 
 button.blue {
